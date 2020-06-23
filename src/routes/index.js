@@ -5,8 +5,6 @@ import {
 } from 'react-router-dom';
 import {ROUTES} from '../constants/routes';
 
-
-
 const Root = () => {
   const showRoutes = () => {
     const RoutesKeys = Object.keys(ROUTES);

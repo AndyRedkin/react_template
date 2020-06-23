@@ -1,14 +1,15 @@
-import App from '../components/App';
+// import App from '../components/App';
 import React from 'react';
+import MainPage from '../pages/main';
 
 export const ROUTES_LINKS = {
-  ROOT: '/'
+  ROOT: '/',
 }
 
 export const ROUTES = {
   ROOT: {
     path: ROUTES_LINKS.ROOT,
-    component: App,
+    component: MainPage,
     exact: true,
   },
   NOT_FOUND: {

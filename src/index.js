@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './routes';
+import './assets/styles/index.scss'
 import {history, store} from './store/store';
 import {ConnectedRouter} from 'connected-react-router';
 import {Provider} from 'react-redux';
