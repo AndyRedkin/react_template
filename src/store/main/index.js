@@ -1,0 +1,1 @@
+import mainAction from './actions/index'
